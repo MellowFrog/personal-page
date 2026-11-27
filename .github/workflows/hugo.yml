@@ -38,6 +38,10 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: "victoriadrake/hugo-theme-sam"
+          path: "themes/hugo-theme-sam"
+
+      - run: ls -al
+      - run: tree
 
       - name: Install Hugo CLI
         run: |
