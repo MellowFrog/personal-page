@@ -1,4 +1,4 @@
-theme = "github.com/victoriadrake/hugo-theme-sam"
+theme = "hugo-theme-sam"
 title = "maja-ryszkowska.net"
 
 [[params.mainMenu]]
