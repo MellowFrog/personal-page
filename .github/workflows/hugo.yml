@@ -37,7 +37,7 @@ jobs:
       - name: Download Hugo theme
         uses: actions/checkout@v7
         with:
-          repository: "https://github.com/victoriadrake/hugo-theme-sam.git"
+          repository: "victoriadrake/hugo-theme-sam"
 
       - name: Install Hugo CLI
         run: |
